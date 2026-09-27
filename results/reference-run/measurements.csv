@@ -1,0 +1,7 @@
+metric,value
+test_block_rate,0.964
+test_false_positive_rate,0.008
+test_agreement_rate,0.865
+test_cohen_kappa,0.8064377374722201
+latency_p50_ms,0.35769999885815196
+latency_p95_ms,0.9025800049130338

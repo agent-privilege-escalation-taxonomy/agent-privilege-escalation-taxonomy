@@ -1,0 +1,15 @@
+python=3.12
+benchmark_dataset=zero-trust-agent-benchmark-dataset-v4.1
+benchmark_domain=acme.test
+benchmark_package=zero-trust-agent-benchmark@git+https://github.com/zero-trust-agent-benchmark/zero-trust-agent-benchmark@v0.1.0
+benchmark_test_sha256=d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b
+
+[pip-freeze-minimum]
+hatchling>=1.25
+pytest>=8.3
+pytest-cov>=5.0
+hypothesis>=6.112
+ruff>=0.8
+mypy>=1.13
+bandit>=1.7
+pip-audit>=2.7

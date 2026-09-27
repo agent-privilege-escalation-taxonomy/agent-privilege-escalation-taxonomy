@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Agent Privilege Escalation Taxonomy
+authors:
+  - family-names: Sawant
+    given-names: Parag
+version: 0.1.0
+date-released: 2026-09-26
+license: Apache-2.0
+repository-code: https://github.com/agent-privilege-escalation-taxonomy/agent-privilege-escalation-taxonomy

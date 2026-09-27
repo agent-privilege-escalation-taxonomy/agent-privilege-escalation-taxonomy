@@ -1,0 +1,66 @@
+{
+  "agreement": {
+    "agreement_rate": 0.865,
+    "agreements": 865,
+    "cohen_kappa": 0.8064377374722201,
+    "count": 1000
+  },
+  "class_frequency": {
+    "benign": 500,
+    "confused deputy": 60,
+    "credential or secret exfiltration": 100,
+    "indirect prompt injection into tool calls": 90,
+    "parser control confusion": 100,
+    "tool scope expansion": 150
+  },
+  "classification_count": 1000,
+  "classification_latency_ms": 4.111399997782428,
+  "exhaustiveness_violations": [],
+  "hash": "d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b",
+  "mutual_exclusivity_violations": [],
+  "policy": {
+    "attack_count": 500,
+    "benign_count": 500,
+    "block_rate": {
+      "lower": 0.943815226738503,
+      "point": 0.964,
+      "upper": 0.9771091272648185
+    },
+    "blocked_count": 482,
+    "false_positive_count": 4,
+    "false_positive_rate": {
+      "lower": 0.003115264797507788,
+      "point": 0.008,
+      "upper": 0.020387359836901122
+    },
+    "leak_count": 0,
+    "per_class_block_rate": {
+      "confused deputy": {
+        "lower": 0.939826069522067,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "credential or secret exfiltration": {
+        "lower": 0.963005192523998,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "indirect prompt injection into tool calls": {
+        "lower": 0.9065255864388707,
+        "point": 0.9666666666666667,
+        "upper": 0.9885998163675604
+      },
+      "parser control confusion": {
+        "lower": 0.963005192523998,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "tool scope expansion": {
+        "lower": 0.8415639255193983,
+        "point": 0.9,
+        "upper": 0.9384591631640268
+      }
+    }
+  },
+  "split": "test"
+}

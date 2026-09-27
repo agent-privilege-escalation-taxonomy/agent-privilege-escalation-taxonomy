@@ -1,0 +1,522 @@
+{
+  "ablation_dev": [
+    {
+      "attack_count": 250,
+      "benign_count": 250,
+      "block_rate": {
+        "lower": 0.5951520421031152,
+        "point": 0.656,
+        "upper": 0.7121261975550023
+      },
+      "blocked_count": 164,
+      "false_positive_count": 2,
+      "false_positive_rate": {
+        "lower": 0.00219659111683783,
+        "point": 0.008,
+        "upper": 0.028695114576791584
+      },
+      "latency": {
+        "mean_ms": 0.2677366666224164,
+        "p50_ms": 0.24264999956358224,
+        "p95_ms": 0.40268499942612823,
+        "p99_ms": 0.4791450029733825,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "version 1"
+    },
+    {
+      "attack_count": 250,
+      "benign_count": 250,
+      "block_rate": {
+        "lower": 0.7118582531392634,
+        "point": 0.768,
+        "upper": 0.8160300047349385
+      },
+      "blocked_count": 192,
+      "false_positive_count": 2,
+      "false_positive_rate": {
+        "lower": 0.00219659111683783,
+        "point": 0.008,
+        "upper": 0.028695114576791584
+      },
+      "latency": {
+        "mean_ms": 0.24159333309701955,
+        "p50_ms": 0.22625000201514922,
+        "p95_ms": 0.3707549974933499,
+        "p99_ms": 0.37970399964251556,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "compound secret data-flow"
+    },
+    {
+      "attack_count": 250,
+      "benign_count": 250,
+      "block_rate": {
+        "lower": 0.9179869282923764,
+        "point": 0.952,
+        "upper": 0.9723320737939639
+      },
+      "blocked_count": 238,
+      "false_positive_count": 2,
+      "false_positive_rate": {
+        "lower": 0.00219659111683783,
+        "point": 0.008,
+        "upper": 0.028695114576791584
+      },
+      "latency": {
+        "mean_ms": 0.2962666663127796,
+        "p50_ms": 0.23515000066254288,
+        "p95_ms": 0.5084699994768014,
+        "p99_ms": 0.6875319995742759,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "requester intent and appraisal"
+    },
+    {
+      "attack_count": 250,
+      "benign_count": 250,
+      "block_rate": {
+        "lower": 0.9179869282923764,
+        "point": 0.952,
+        "upper": 0.9723320737939639
+      },
+      "blocked_count": 238,
+      "false_positive_count": 2,
+      "false_positive_rate": {
+        "lower": 0.00219659111683783,
+        "point": 0.008,
+        "upper": 0.028695114576791584
+      },
+      "latency": {
+        "mean_ms": 0.3492333334482585,
+        "p50_ms": 0.37739999970654026,
+        "p95_ms": 0.47978499860619195,
+        "p99_ms": 0.49865599867189303,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "final structural controls"
+    }
+  ],
+  "ablation_test": [
+    {
+      "attack_count": 500,
+      "benign_count": 500,
+      "block_rate": {
+        "lower": 0.6604921922645165,
+        "point": 0.702,
+        "upper": 0.7404274618489984
+      },
+      "blocked_count": 351,
+      "false_positive_count": 4,
+      "false_positive_rate": {
+        "lower": 0.003115264797507788,
+        "point": 0.008,
+        "upper": 0.020387359836901122
+      },
+      "latency": {
+        "mean_ms": 0.20607333378090212,
+        "p50_ms": 0.19529999917722307,
+        "p95_ms": 0.3290450003987643,
+        "p99_ms": 0.3564850002294407,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "version 1"
+    },
+    {
+      "attack_count": 500,
+      "benign_count": 500,
+      "block_rate": {
+        "lower": 0.777545194456855,
+        "point": 0.814,
+        "upper": 0.8456665451057376
+      },
+      "blocked_count": 407,
+      "false_positive_count": 4,
+      "false_positive_rate": {
+        "lower": 0.003115264797507788,
+        "point": 0.008,
+        "upper": 0.020387359836901122
+      },
+      "latency": {
+        "mean_ms": 0.31096999931226793,
+        "p50_ms": 0.2299999978276901,
+        "p95_ms": 0.5451949953567237,
+        "p99_ms": 0.9956289990805095,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "compound secret data-flow"
+    },
+    {
+      "attack_count": 500,
+      "benign_count": 500,
+      "block_rate": {
+        "lower": 0.9414147746007344,
+        "point": 0.962,
+        "upper": 0.9755400778767108
+      },
+      "blocked_count": 481,
+      "false_positive_count": 4,
+      "false_positive_rate": {
+        "lower": 0.003115264797507788,
+        "point": 0.008,
+        "upper": 0.020387359836901122
+      },
+      "latency": {
+        "mean_ms": 0.3197999991243705,
+        "p50_ms": 0.27259999842499383,
+        "p95_ms": 0.5968749959720291,
+        "p99_ms": 0.8409160013252406,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "requester intent and appraisal"
+    },
+    {
+      "attack_count": 500,
+      "benign_count": 500,
+      "block_rate": {
+        "lower": 0.943815226738503,
+        "point": 0.964,
+        "upper": 0.9771091272648185
+      },
+      "blocked_count": 482,
+      "false_positive_count": 4,
+      "false_positive_rate": {
+        "lower": 0.003115264797507788,
+        "point": 0.008,
+        "upper": 0.020387359836901122
+      },
+      "latency": {
+        "mean_ms": 0.2751233327823381,
+        "p50_ms": 0.23769999825162813,
+        "p95_ms": 0.41389500329387374,
+        "p99_ms": 0.4247409987146966,
+        "trials": 30,
+        "unit": "trace"
+      },
+      "name": "final structural controls"
+    }
+  ],
+  "benchmark_dev": {
+    "agreement": {
+      "agreement_rate": 0.864,
+      "agreements": 432,
+      "cohen_kappa": 0.8050291022737046,
+      "count": 500
+    },
+    "class_frequency": {
+      "benign": 250,
+      "confused deputy": 30,
+      "credential or secret exfiltration": 50,
+      "indirect prompt injection into tool calls": 45,
+      "parser control confusion": 50,
+      "tool scope expansion": 75
+    },
+    "classification_count": 500,
+    "classification_latency_ms": 0.9261000013793819,
+    "exhaustiveness_violations": [],
+    "hash": "4b6fcd37944e7ad85295805e8b73a4507680a87c9a09c5b1201ab43ef02d1e31",
+    "mutual_exclusivity_violations": [],
+    "policy": {
+      "attack_count": 250,
+      "benign_count": 250,
+      "block_rate": {
+        "lower": 0.9179869282923764,
+        "point": 0.952,
+        "upper": 0.9723320737939639
+      },
+      "blocked_count": 238,
+      "false_positive_count": 2,
+      "false_positive_rate": {
+        "lower": 0.00219659111683783,
+        "point": 0.008,
+        "upper": 0.028695114576791584
+      },
+      "leak_count": 0,
+      "per_class_block_rate": {
+        "confused deputy": {
+          "lower": 0.886482908609522,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "credential or secret exfiltration": {
+          "lower": 0.9286499658256813,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "indirect prompt injection into tool calls": {
+          "lower": 0.8517222081611939,
+          "point": 0.9555555555555556,
+          "upper": 0.9877261309595557
+        },
+        "parser control confusion": {
+          "lower": 0.9286499658256813,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "tool scope expansion": {
+          "lower": 0.7716663173307006,
+          "point": 0.8666666666666667,
+          "upper": 0.9259349490058527
+        }
+      }
+    },
+    "split": "dev"
+  },
+  "benchmark_test": {
+    "agreement": {
+      "agreement_rate": 0.865,
+      "agreements": 865,
+      "cohen_kappa": 0.8064377374722201,
+      "count": 1000
+    },
+    "class_frequency": {
+      "benign": 500,
+      "confused deputy": 60,
+      "credential or secret exfiltration": 100,
+      "indirect prompt injection into tool calls": 90,
+      "parser control confusion": 100,
+      "tool scope expansion": 150
+    },
+    "classification_count": 1000,
+    "classification_latency_ms": 4.111399997782428,
+    "exhaustiveness_violations": [],
+    "hash": "d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b",
+    "mutual_exclusivity_violations": [],
+    "policy": {
+      "attack_count": 500,
+      "benign_count": 500,
+      "block_rate": {
+        "lower": 0.943815226738503,
+        "point": 0.964,
+        "upper": 0.9771091272648185
+      },
+      "blocked_count": 482,
+      "false_positive_count": 4,
+      "false_positive_rate": {
+        "lower": 0.003115264797507788,
+        "point": 0.008,
+        "upper": 0.020387359836901122
+      },
+      "leak_count": 0,
+      "per_class_block_rate": {
+        "confused deputy": {
+          "lower": 0.939826069522067,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "credential or secret exfiltration": {
+          "lower": 0.963005192523998,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "indirect prompt injection into tool calls": {
+          "lower": 0.9065255864388707,
+          "point": 0.9666666666666667,
+          "upper": 0.9885998163675604
+        },
+        "parser control confusion": {
+          "lower": 0.963005192523998,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "tool scope expansion": {
+          "lower": 0.8415639255193983,
+          "point": 0.9,
+          "upper": 0.9384591631640268
+        }
+      }
+    },
+    "split": "test"
+  },
+  "coverage_matrix": {
+    "benign": {
+      "dev": 250,
+      "test": 500
+    },
+    "confused deputy": {
+      "dev": 30,
+      "test": 60
+    },
+    "credential or secret exfiltration": {
+      "dev": 50,
+      "test": 100
+    },
+    "delegation chain abuse": {
+      "dev": 0,
+      "test": 0
+    },
+    "indirect prompt injection into tool calls": {
+      "dev": 45,
+      "test": 90
+    },
+    "model or artifact substitution": {
+      "dev": 0,
+      "test": 0
+    },
+    "multi-agent collusion": {
+      "dev": 0,
+      "test": 0
+    },
+    "parser control confusion": {
+      "dev": 50,
+      "test": 100
+    },
+    "persistence or hijack": {
+      "dev": 0,
+      "test": 0
+    },
+    "tool scope expansion": {
+      "dev": 75,
+      "test": 150
+    }
+  },
+  "dataset": {
+    "observed_sha256": {
+      "all": "698bde6021459ac1a2ddf51f41897b7c79614e20dc906712dcceb6f51ebb7676",
+      "dev": "4b6fcd37944e7ad85295805e8b73a4507680a87c9a09c5b1201ab43ef02d1e31",
+      "test": "d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b"
+    },
+    "pinned_sha256": {
+      "all": "698bde6021459ac1a2ddf51f41897b7c79614e20dc906712dcceb6f51ebb7676",
+      "dev": "4b6fcd37944e7ad85295805e8b73a4507680a87c9a09c5b1201ab43ef02d1e31",
+      "test": "d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b"
+    },
+    "version": "zero-trust-agent-benchmark-dataset-v4.1"
+  },
+  "extension": {
+    "benchmark_dev": {
+      "class_frequency": {
+        "benign": 20,
+        "delegation chain abuse": 5,
+        "model or artifact substitution": 5,
+        "multi-agent collusion": 5,
+        "persistence or hijack": 5
+      },
+      "classification_count": 40,
+      "hash": "2803d0b77fd94978d67588c6fe09517941e7f032916646e03d79a9b7e1b37120",
+      "policy": {
+        "attack_count": 20,
+        "benign_count": 20,
+        "block_rate": {
+          "lower": 0.8388698745050667,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "blocked_count": 20,
+        "false_positive_count": 0,
+        "false_positive_rate": {
+          "lower": 0.0,
+          "point": 0.0,
+          "upper": 0.1611301254949332
+        },
+        "leak_count": 0,
+        "per_class_block_rate": {
+          "delegation chain abuse": {
+            "lower": 0.565508505247919,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "model or artifact substitution": {
+            "lower": 0.565508505247919,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "multi-agent collusion": {
+            "lower": 0.565508505247919,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "persistence or hijack": {
+            "lower": 0.565508505247919,
+            "point": 1.0,
+            "upper": 1.0
+          }
+        }
+      },
+      "split": "dev"
+    },
+    "benchmark_test": {
+      "class_frequency": {
+        "benign": 40,
+        "delegation chain abuse": 10,
+        "model or artifact substitution": 10,
+        "multi-agent collusion": 10,
+        "persistence or hijack": 10
+      },
+      "classification_count": 80,
+      "hash": "d10ac70ca54392007ede9585c7a17c519aa3c2f4bc1b39d889e19bd11756bd65",
+      "policy": {
+        "attack_count": 40,
+        "benign_count": 40,
+        "block_rate": {
+          "lower": 0.9123754607496077,
+          "point": 1.0,
+          "upper": 1.0
+        },
+        "blocked_count": 40,
+        "false_positive_count": 0,
+        "false_positive_rate": {
+          "lower": 0.0,
+          "point": 0.0,
+          "upper": 0.08762453925039232
+        },
+        "leak_count": 0,
+        "per_class_block_rate": {
+          "delegation chain abuse": {
+            "lower": 0.7224598312333834,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "model or artifact substitution": {
+            "lower": 0.7224598312333834,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "multi-agent collusion": {
+            "lower": 0.7224598312333834,
+            "point": 1.0,
+            "upper": 1.0
+          },
+          "persistence or hijack": {
+            "lower": 0.7224598312333834,
+            "point": 1.0,
+            "upper": 1.0
+          }
+        }
+      },
+      "split": "test"
+    },
+    "manifest": {
+      "dev.jsonl": "2803d0b77fd94978d67588c6fe09517941e7f032916646e03d79a9b7e1b37120",
+      "profile.json": "5773444692e9e05b28f537f9db40cc42440e2e5e34f855ea8b7d3b841a4d9e63",
+      "test.jsonl": "d10ac70ca54392007ede9585c7a17c519aa3c2f4bc1b39d889e19bd11756bd65"
+    }
+  },
+  "hypotheses": {
+    "classification_mutually_exclusive": true,
+    "classification_total": true,
+    "dataset_hashes_match_pins": true,
+    "extension_attacks_blocked": true,
+    "extension_benign_allowed": true,
+    "independent_rule_agreement_at_least_substantial": true,
+    "reference_policy_blocks_all_attacks": false,
+    "reference_policy_zero_leaks": true
+  },
+  "latency": {
+    "mean_ms": 0.42723700011265464,
+    "p50_ms": 0.35769999885815196,
+    "p95_ms": 0.9025800049130338,
+    "p99_ms": 1.3238920020376101
+  },
+  "run": {
+    "timestamp_utc": "2026-09-27T05:36:29Z",
+    "trials": 100
+  }
+}

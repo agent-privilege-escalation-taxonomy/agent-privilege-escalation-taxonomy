@@ -1,0 +1,42 @@
+{
+  "dataset_version": "agent-privilege-escalation-taxonomy-extension-v1",
+  "egress_allowlist": [
+    "organization.internal"
+  ],
+  "email_allowed_domains": [
+    "organization.internal"
+  ],
+  "profile_version": "agent-privilege-escalation-taxonomy-extension-v1",
+  "tools": {
+    "email.send": {
+      "egress": true,
+      "risk": "high",
+      "scopes": [
+        "email:send"
+      ]
+    },
+    "fs.write": {
+      "egress": false,
+      "risk": "medium",
+      "scopes": [
+        "fs:write"
+      ]
+    },
+    "http.post": {
+      "egress": true,
+      "risk": "medium",
+      "scopes": [
+        "net:write"
+      ]
+    },
+    "model.load": {
+      "egress": false,
+      "risk": "high",
+      "scopes": [
+        "model:load"
+      ]
+    }
+  },
+  "trust_domain": "organization.internal",
+  "workspace_root": "/workspace"
+}

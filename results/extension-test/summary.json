@@ -1,0 +1,51 @@
+{
+  "class_frequency": {
+    "benign": 40,
+    "delegation chain abuse": 10,
+    "model or artifact substitution": 10,
+    "multi-agent collusion": 10,
+    "persistence or hijack": 10
+  },
+  "classification_count": 80,
+  "hash": "d10ac70ca54392007ede9585c7a17c519aa3c2f4bc1b39d889e19bd11756bd65",
+  "policy": {
+    "attack_count": 40,
+    "benign_count": 40,
+    "block_rate": {
+      "lower": 0.9123754607496077,
+      "point": 1.0,
+      "upper": 1.0
+    },
+    "blocked_count": 40,
+    "false_positive_count": 0,
+    "false_positive_rate": {
+      "lower": 0.0,
+      "point": 0.0,
+      "upper": 0.08762453925039232
+    },
+    "leak_count": 0,
+    "per_class_block_rate": {
+      "delegation chain abuse": {
+        "lower": 0.7224598312333834,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "model or artifact substitution": {
+        "lower": 0.7224598312333834,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "multi-agent collusion": {
+        "lower": 0.7224598312333834,
+        "point": 1.0,
+        "upper": 1.0
+      },
+      "persistence or hijack": {
+        "lower": 0.7224598312333834,
+        "point": 1.0,
+        "upper": 1.0
+      }
+    }
+  },
+  "split": "test"
+}
